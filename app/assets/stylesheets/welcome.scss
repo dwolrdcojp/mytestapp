@@ -1,3 +1,16 @@
-// Place all the styles related to the welcome controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  font-family: "Raleway", sans-serif;
+  height: 100%;
+}
+h1 {
+  font-family: "Raleway", sans-serif;
+}
+html {
+  height: 100%;
+}
+.bgimg {
+  background-image: url('https://www.w3schools.com/w3images/forestbridge.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}

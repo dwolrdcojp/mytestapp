@@ -1,5 +1,26 @@
-<h2>Hello, Rails!</h2>
-<p>
-  The time is now: <%= Time.now %>
-</p>
-<%= link_to 'My Blog', controller: 'articles' %>
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<body>
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">MASS MINDS</h1><br><br><br><br>
+    <h3 class="w3-large w3-center"> Founded by Kevin Stamps </h3>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-large w3-center">
+      <%= Time.current.to_formatted_s(:long).upcase %></p>
+  </div>
+
+</div>
+
+</body>
+</html>
+
+
